@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/IvanNikolic-Omega/static/css/main.781b6c69.chunk.css",
+    "main.js": "/IvanNikolic-Omega/static/js/main.db2fe40b.chunk.js",
+    "main.js.map": "/IvanNikolic-Omega/static/js/main.db2fe40b.chunk.js.map",
+    "runtime-main.js": "/IvanNikolic-Omega/static/js/runtime-main.174b0113.js",
+    "runtime-main.js.map": "/IvanNikolic-Omega/static/js/runtime-main.174b0113.js.map",
+    "static/js/2.96f6f8ae.chunk.js": "/IvanNikolic-Omega/static/js/2.96f6f8ae.chunk.js",
+    "static/js/2.96f6f8ae.chunk.js.map": "/IvanNikolic-Omega/static/js/2.96f6f8ae.chunk.js.map",
+    "index.html": "/IvanNikolic-Omega/index.html",
+    "static/css/main.781b6c69.chunk.css.map": "/IvanNikolic-Omega/static/css/main.781b6c69.chunk.css.map",
+    "static/js/2.96f6f8ae.chunk.js.LICENSE.txt": "/IvanNikolic-Omega/static/js/2.96f6f8ae.chunk.js.LICENSE.txt",
+    "static/media/news.8361cf76.jpg": "/IvanNikolic-Omega/static/media/news.8361cf76.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.174b0113.js",
+    "static/js/2.96f6f8ae.chunk.js",
+    "static/css/main.781b6c69.chunk.css",
+    "static/js/main.db2fe40b.chunk.js"
+  ]
+}

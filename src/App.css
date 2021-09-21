@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+*, *::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    width: 100%;
+}
+body {
+    font-family: 'Sen';
+    background-color: #F3F1D0;
+    width: 100%;
+}
+.homepage-section {
+    min-height:100vh;
+    background-color: #F3F1D0;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    place-items: center;
+}
+.homepage-section-search {
+    height:60vh;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    background-color: #F3F1D0;
+    margin-top: 40px;
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    place-items: center;
+}
+.exist {
+    font-size: 30px;
+    color: red;
+    padding: 7px 15px;
+    text-shadow: 1px 1px 2px blue;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 373px;
+    background-color: chartreuse;
+    animation: ex infinite 2s ease ;
+}
+@keyframes ex {
+    from {background-color: red;color: black;}
+    to {background-color: yellow;}
+  }
+.homepage-section .more,
+.card .more {
+    float: right;
+    font-size: 16px;
+    position: absolute;
+    left: 79%;
+    top: 90%;
+    text-decoration: none;
+    font-size: 18px;
+}
+.homepage-section a {
+    color: cadetblue;
+    position: absolute;
+    top: 88%;
+    left: 75%;
+}
+.homepage-section .moreIcon,
+.card .moreIcon {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-left: 1px;
+    padding-top: 11px;
+}
+.searchPage {
+    position:absolute;
+    left: 43%;
+    margin-top: 12px;
+    width: 250px;
+    font-size: 1.8rem;
+}
+h1 {
+    text-align: left;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.card {
+    max-width: 450px;
+    min-height: 395px;
+    border-radius: 10px;
+    padding:10px 20px;
+    position: relative;
+    background-color: #fff;
+    margin-top: 30px;
+    word-break: break-all;
+    box-shadow: rgba(59, 46, 46, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card h3 {
+    margin-bottom: 10px;
+    color:#16171C ;
+    overflow: hidden;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.card img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 200px;
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left:58px;
+}
+.card p {
+    margin-top: 10px;
+    color:#16171C ;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.search-h4 {
+    font-size: 28px;
+    margin: 10px 0 0 15px;
+}
+@media only screen and (max-width: 768px) {
+    .homepage-section-search {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    place-items: center;
+ }
+    .card {
+        max-width: 300px;
+        min-height: 400px;
+        margin: 30px auto;
+    }
+    .card img {
+        margin-left: 0;
+        width: 253px;
+        height: 150px;
+    }
+    .homepage-section .more,
+    .card .more {
+    position: absolute;
+    left: 69%;
+}
+    input[type='search'] {
+        width: 130px;
+        margin-left: 50px;
+        padding: 0 15px;
+    }
+    select {
+        width: 137px;
+        margin-left: -5px;
+    }
+    .countries {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -100px;
+    }
+    h1 {
+        margin-top: 60px;
+        font-size: 1.6rem;
+        width: 260px;     
+    }
+    .exist {
+        font-size: 20px;
+        margin-left: 150px;
+        width: 260px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:1200px){
+    .homepage-section,
+    .homepage-section-search {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    place-items: center;
+ }   
+ .countries {
+     display: flex;
+     justify-content: space-around;
+     margin-left: -50px;
+ }
+ input {
+     width: 180px;
+     background-color: red;
+ }
+ .exist {
+    font-size: 20px;
+    margin-left: -250px;
+   width: 260px;
+}
+}
